@@ -1,0 +1,57 @@
+# env
+env = WINIT_X11_SCALE_FACTOR = 1
+term = xterm-256color
+
+# window
+window-padding-balance = true
+title = Ghostty@CachyOS
+background-opacity = 1.0
+window-theme = dark
+
+# window dimensions
+window-width = 100
+window-height = 30
+
+# window class
+class = Ghostty
+x11-instance-name = Ghostty
+
+# scrolling
+scrollback-limit = 10000
+
+# colors
+bold-color = bright
+
+# theme
+theme = Ayu
+
+# font
+font-size = 12
+
+# normal font
+font-family = FiraCode Nerd Font
+font-style = Regular
+
+# bold font
+font-family-bold = FiraCode Nerd Font
+font-style-bold = Bold
+
+# italic font
+font-family-italic = FiraCode Nerd Font
+font-style-italic = Italic
+
+# bold italic font
+font-family-bold-italic = FiraCode Nerd Font
+font-style-bold-italic = Bold Italic
+
+# font features
+font-feature = +calt, +liga, +dlig
+
+# selection
+clipboard-write = allow
+
+# mouse
+mouse-hide-while-typing = true
+
+# keybinds
+keybind = ctrl+enter=unbind

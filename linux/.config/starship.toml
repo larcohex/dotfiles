@@ -1,0 +1,52 @@
+format = """
+[╭](bold overlay1) \
+$username\
+$directory\
+$git_branch\
+$time \
+\n$character"""
+
+palette = 'ayu'
+
+[palettes.ayu]
+color_fg0 = '#5a6378'   # text foreground
+color_bg0 = '#0d1017'
+color_bg1 = '#141821'
+color_bg3 = '#0f131a'
+color_blue = '#17acf2'
+color_aqua = '#39bae6'
+color_green = '#97c142'
+color_orange = '#ff8f40'
+color_red = '#e6495a'
+color_yellow = '#e89d37'
+
+[character]
+format = """
+[╰─$symbol](fg:overlay1) """
+success_symbol = '[](fg:bold text)'
+error_symbol = '[](fg:bold red)'
+
+[username]
+disabled = false
+show_always = true
+
+[directory]
+format = '$path'
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+style = "fg:color_yellow"
+disabled = false
+symbol = ""
+format = '( | [$symbol]($style) $branch) '
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+format = '| $time'
+

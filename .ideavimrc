@@ -1,0 +1,7 @@
+set number relativenumber
+set clipboard=unnamed
+
+let mapleader = " "
+
+Plug 'preservim/nerdtree'
+
