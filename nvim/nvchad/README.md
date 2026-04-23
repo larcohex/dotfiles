@@ -1,6 +1,6 @@
 # Neovim setup
 
-Currently I extend NvChad's config, will probably revisit it if I won't need their plugins anymore
+My config on top of NvChad
 
 **This config is supposed to be used as config by NvChad users!**
 
@@ -9,4 +9,4 @@ Currently I extend NvChad's config, will probably revisit it if I won't need the
 
 # Credits
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+1. Lazyvim starter <https://github.com/LazyVim/starter> as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
