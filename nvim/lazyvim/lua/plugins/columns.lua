@@ -2,7 +2,8 @@ return {
   "luukvbaal/statuscol.nvim",
   event = "FileType",
   config = function()
-    local ignore = { "alpha", "dashboard", "snacks_dashboard", "nvdash", "NvimTree", "lazy", "mason_backdrop" }
+    local ignore =
+      { "alpha", "dashboard", "snacks_dashboard", "nvdash", "NvimTree", "lazy", "mason_backdrop", "neo-tree" }
     -- Custom function to show both absolute and relative line numbers
     local function lnum_both()
       local lnum = vim.v.lnum

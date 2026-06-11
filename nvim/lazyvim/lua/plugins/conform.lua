@@ -13,6 +13,7 @@ return {
       htmlangular = { "prettierd", "eslint_d" },
       css = { "prettierd" },
       scss = { "prettierd" },
+      astro = { "prettier" },
       ["*"] = function(bufnr)
         if vim.g.disable_codespell or vim.b[bufnr].disable_codespell then
           return {}
